@@ -5,12 +5,13 @@ pipeline {
         KUBECONFIG_CREDENTIAL_ID = 'aks-kubeconfig'
     }
 
-    stages {
-        stage('Checkout Code') {
-            steps {
-                git credentialsId: 'github-creds', url: 'https://github.com/Sudharshan2108/Databricks-CI-CD_Pipeline.git'
-            }
-        }
+    stage('Checkout Code') {
+    steps {
+        git branch: 'main', //  use the correct branch
+            credentialsId: 'github-creds',
+            url: 'https://github.com/Sudharshan2108/Databricks-CI-CD_Pipeline.git'
+    }
+}
 
         stage('Install Dependencies') {
             steps {
