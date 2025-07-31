@@ -1,0 +1,5 @@
+name,age,city,email,salary,experience,role,team,gender,status
+Alice,25.0,New York,alice@mail.com,70000.0,2.0,Data Analyst,A,F,Active
+Bob,30.0,Paris,bob@mail.com,80000.0,5.0,Manager,B,M,Active
+Charlie,35.0,London,charlie@mail.com,90000.0,7.0,Engineer,C,M,Inactive
+Unknown,0.0,Unknown,unknown@mail.com,0.0,0.0,Unknown,Unknown,Unknown,Unknown
