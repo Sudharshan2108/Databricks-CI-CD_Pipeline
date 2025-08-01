@@ -12,6 +12,6 @@ spec:
         args:
           - |
             pip install pandas numpy && \
-            curl -O https://raw.githubusercontent.com/<Sudharshan2108>/etl-pipeline/main/etl.py && \
+            curl -O https://raw.githubusercontent.com/Sudharshan2108/Databricks-CI-CD_Pipeline/main/etl.py && \
             python etl.py
       restartPolicy: Never
